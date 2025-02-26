@@ -1,0 +1,14 @@
+.idea
+**/vscode
+**/__pycache__
+# All the data files (audio wavs) and label files (csv)
+**/data 
+# Deletes all the CSV files which are created during the preprocessing and EDA of the dataset
+**/csv 
+
+.env
+# Get ride of slurm logs
+**/slurm
+
+# all datafiles which are created from the recipes
+**/recipes_datafiles

@@ -1,0 +1,1 @@
+For using AudioMAE with Audioset you can use the same json files which you generated for AST and contiunue with the recipes of the models repository: https://github.com/facebookresearch/AudioMAE

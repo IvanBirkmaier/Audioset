@@ -1,8 +1,10 @@
 # Audioset
+
+You can use this repository to download the waveforms from AudioSet and create data files for AST and AudioMAE recipes.
+
 Audioset is an audio event dataset, which consists of over 2M human-annotated 10-second video clips. These clips are collected from YouTube, therefore many of which are in poor-quality and contain multiple sound-sources. A hierarchical [ontology](https://research.google.com/audioset/ontology/index.html) of 632 event classes is employed to annotate these data, which means that the same sound could be annotated as different labels. For example, the sound of barking is annotated as Animal, Pets, and Dog. All the videos are split into Evaluation/Balanced-Train/Unbalanced-Train set [(source)](https://paperswithcode.com/dataset/audioset). Explore the dataset annotations by sound class [here](https://research.google.com/audioset/dataset/index.html).
 
 ## Description
-
 This repository is built with a focus on practical ways to obtain and work with the audio data of audio set. Due to **copyright constraints and YouTube’s evolving content**, fully reconstructing the entire dataset can be challenging. Originally, Google’s official [AudioSet page](https://research.google.com/audioset/download.html) only provides *feature embeddings*, not raw audio files (wavs). Consequently, anyone wishing to download the actual sound files must do so via YouTube video IDs—an approach complicated by the fact that many clips become unavailable over time (e.g., removed by creators or due to policy violations).
 
 ### Sources for Audio

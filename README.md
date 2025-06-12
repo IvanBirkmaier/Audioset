@@ -29,7 +29,7 @@ Collectively, this exceeded **1 TB** of data. Note that the actual usable clip c
 
 ## Getting Started
 
-To prepare your environment and run the [Data Preparation Recipes](##Data Preparation Recipes), please follow these steps:
+To prepare your environment and run the [Data Preparation Recipes](#data-preparation-recipes), please follow these steps:
 
 1. **Set Up the Conda Environment**  
    - Create a Conda environment using the provided `requirements.txt`.  
@@ -147,7 +147,7 @@ Any audio file that fails one or more checks is dropped from the final dataset, 
 <img src="files/class_balance_balanced_segment.png" width="600" height="415"/>
 <img src="files/class_balance_eval_segment.png" width="600" height="415"/><br><br>
 
-Please read the paper: [Audio Set: An ontology and human-labeled dataset for audio events]("https://ieeexplore.ieee.org/document/7952261") to gain a better understanding on how the dataset works.
+Please read the paper: [Audio Set: An ontology and human-labeled dataset for audio events](https://ieeexplore.ieee.org/document/7952261) to gain a better understanding on how the dataset works.
 
 
 ## Data Preparation Recipes
